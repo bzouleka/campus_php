@@ -9,7 +9,9 @@ function getEmail($email)
 }
 
 foreach ($users as $user) {
+    echo "<pre>";
     echo getEmail($user);
+    echo "</pre>";
 }
 
 
