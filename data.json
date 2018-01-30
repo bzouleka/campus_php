@@ -1,0 +1,10 @@
+[{"id":1,"first_name":"Julie","last_name":"Torres","email":"jtorres0@foxnews.com","gender":"Female"},
+{"id":2,"first_name":"Matthew","last_name":"Parker","email":"mparker1@chicagotribune.com","gender":"Male"},
+{"id":3,"first_name":"Frank","last_name":"Cruz","email":"fcruz2@mozilla.com","gender":"Male"},
+{"id":4,"first_name":"Donna","last_name":"Smith","email":"dsmith3@wordpress.org","gender":"Female"},
+{"id":5,"first_name":"Randy","last_name":"Baker","email":"rbaker4@economist.com","gender":"Male"},
+{"id":6,"first_name":"Jacqueline","last_name":"Wallace","email":"jwallace5@washingtonpost.com","gender":"Female"},
+{"id":7,"first_name":"Walter","last_name":"Myers","email":"wmyers6@symantec.com","gender":"Male"},
+{"id":8,"first_name":"Keith","last_name":"Rose","email":"krose7@t-online.de","gender":"Male"},
+{"id":9,"first_name":"Willie","last_name":"Richardson","email":"wrichardson8@bizjournals.com","gender":"Male"},
+{"id":10,"first_name":"Robin","last_name":"Miller","email":"rmiller9@wufoo.com","gender":"Female"}]
