@@ -21,7 +21,7 @@ $males = [];
 $females = [];
 
 /* 1ere methode
-$males = array_map(funtion($user){
+$males = array_filter(funtion($user){
     return $user -> gender=== 'Males";
 }, $users);
 */
