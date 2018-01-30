@@ -20,9 +20,15 @@ $users =  json_decode(file_get_contents('data.json'));
 $males = [];
 $females = [];
 
+/* 1ere methode
+$males = array_map(funtion($user){
+    return $user -> gender=== 'Males";
+}, $users);
+*/
+
 foreach ($users as $user) {
     if ($user -> gender === 'Male') {
-        $males[]= $user;
+        $males[]= $user; // ou 2eme méthode array.push($males, $user);
     } else {
         $females[]= $user;
     }
