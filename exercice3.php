@@ -43,10 +43,15 @@ Résultat attendu: 1 ou 2 fichiers php affichant le formulaire, si method = POST
 
         <?php
 
-
-$email = $_POST['email'];
-$nom = $_POST['nom'];
-$prenom = $_POST['prenom'];
+/*if (isset($_POST['email'])) {
+    $email = $_POST['email'];
+} else {
+    $email = '';
+}*/
+        
+$email = isset($_POST['email']) ? $_POST['email'] : '';
+$nom = isset($_POST['nom']) ? $_POST['nom'] : '';
+$prenom = isset($_POST['prenom']) ? $_POST['prenom'] : '';
 
   
    if (filter_var($email, FILTER_VALIDATE_EMAIL)) /* ou avec regec ==> (preg_match('#^[\w.-]+@[\w.-]+\.[a-z]{2,6}$#i', $email)) */
