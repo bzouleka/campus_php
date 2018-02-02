@@ -5,14 +5,14 @@
 <head>
     <meta charset="utf-8" />
     <title>Mon blog</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="blog_style.css" rel="stylesheet" />
 </head>
 
 <body>
 
     <h1>Mon super blog !</h1>
     <p>
-        <a href="index.php">Retour à la liste des billets</a>
+        <a href="blog.php">Retour à la liste des billets</a>
     </p>
 
     <?php
@@ -55,7 +55,7 @@ $req->execute(array($_GET['billet']));
 while ($donnees = $req->fetch()) {
     ?>
 
-            <p>
+            <p class="com">
                 <strong>
                     <?php echo htmlspecialchars($donnees['auteur']); ?>
                 </strong> le
@@ -64,6 +64,7 @@ while ($donnees = $req->fetch()) {
             <p>
                 <?php echo nl2br(htmlspecialchars($donnees['commentaire'])); ?>
             </p>
+
             <?php
 }
 $req->closeCursor();
