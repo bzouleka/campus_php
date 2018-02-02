@@ -10,7 +10,7 @@
 
 <body>
 
-    <h1>Mon super blog !</h1>
+    <h1>FMAC !</h1>
     <p>Derniers billets du blog :</p>
 
     <?php
